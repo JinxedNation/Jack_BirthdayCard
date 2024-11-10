@@ -9,13 +9,11 @@ body {
     min-height: 100vh;
     margin: 0;
 }
-
 h1 {
     font-size: 3em;
     color: #FFD700;
     text-shadow: 2px 2px 4px #000;
 }
-
 .cover, .card {
     background-color: #1A1A1A;
     border: 3px solid #FFD700;
@@ -26,13 +24,11 @@ h1 {
     max-width: 600px;
     box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.6);
 }
-
 .warhammer-logo {
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
 }
-
 .button {
     background-color: #FFD700;
     color: #1A1A1A;
@@ -44,7 +40,26 @@ h1 {
     margin-top: 20px;
     transition: background-color 0.3s ease;
 }
-
 .button:hover {
     background-color: #DAA520;
+}
+
+/* New Quote Style that matches your theme */
+.quote-style-3 {
+    position: relative;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.quote-style-3::before,
+.quote-style-3::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background: #FFD700;  /* Matches your gold theme */
+    width: 150px;
+    margin: 15px auto;
+    box-shadow: 0px 0px 8px rgba(255, 215, 0, 0.6); /* Matching glow effect */
 }
