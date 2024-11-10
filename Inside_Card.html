@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inside the Card</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/5/59/Warhammer_40k_logo.jpg" alt="Warhammer 40k Logo" class="warhammer-logo">
+        <h1>To the Greatest Cousin!</h1>
+        <p>Wishing you an epic birthday filled with battles won and glory earned!</p>
+        <p>You’re not just a cousin; you're a true warrior in my life’s crusade. Here’s to another year of conquest and victory!</p>
+        <p id="gift-message" style="display:none;">The Emperor Protects! Happy Birthday, Mighty Cousin!</p>
+        <button class="button" onclick="showMessage()">Receive the Blessing of the Emperor</button>
+        <button class="button" onclick="goBack()">Back to Cover</button>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById('gift-message').style.display = 'block';
+        }
+
+        function goBack() {
+            window.location.href = "Cover.html";
+        }
+    </script>
+</body>
+</html>
