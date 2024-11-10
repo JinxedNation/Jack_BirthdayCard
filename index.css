@@ -116,3 +116,15 @@ p {
     border-bottom: 2px solid #FFD700;
     padding: 0.5em 0;
 }
+
+.return-link {
+    color: #FFD700;
+    text-decoration: underline;
+    font-size: 1.2em;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.return-link:hover {
+    color: #DAA520;
+}
