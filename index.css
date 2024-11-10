@@ -9,11 +9,13 @@ body {
     min-height: 100vh;
     margin: 0;
 }
+
 h1 {
     font-size: 3em;
     color: #FFD700;
     text-shadow: 2px 2px 4px #000;
 }
+
 .cover, .card {
     background-color: #1A1A1A;
     border: 3px solid #FFD700;
@@ -24,11 +26,13 @@ h1 {
     max-width: 600px;
     box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.6);
 }
+
 .warhammer-logo {
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
 }
+
 .button {
     background-color: #FFD700;
     color: #1A1A1A;
@@ -39,12 +43,54 @@ h1 {
     border-radius: 5px;
     margin-top: 20px;
     transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
 }
+
 .button:hover {
     background-color: #DAA520;
 }
 
-/* New Quote Style that matches your theme */
+/* Styling for the Main Heading */
+.main-heading {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #FFD700;
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+/* Styling for smaller central text elements */
+.central-text-small {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #FFD700;
+    margin: 1em 0;
+    text-align: center;
+    border-top: 2px solid #FFD700;
+    border-bottom: 2px solid #FFD700;
+    padding: 0.5em 0;
+}
+
+/* Quote style with italics */
+.quote {
+    font-style: italic;
+    text-align: center;
+    color: #FFD700;
+    margin: 1em 0;
+}
+
+/* Final line styling for signature */
+.final-line {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #FFD700;
+    margin-top: 1.5em;
+}
+
+/* New Quote Style with lines above and below */
 .quote-style-3 {
     position: relative;
     padding: 20px 0;
@@ -58,8 +104,8 @@ h1 {
     content: "";
     display: block;
     height: 2px;
-    background: #FFD700;  /* Matches your gold theme */
+    background: #FFD700;
     width: 150px;
     margin: 15px auto;
-    box-shadow: 0px 0px 8px rgba(255, 215, 0, 0.6); /* Matching glow effect */
+    box-shadow: 0px 0px 8px rgba(255, 215, 0, 0.6);
 }
