@@ -15,7 +15,7 @@ body {
     background-color: #1A1A1A;
     border: 3px solid #FFD700;
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px 20px;  /* Increased padding for top/bottom spacing */
     text-align: center;
     width: 80%;
     max-width: 600px;
@@ -29,24 +29,22 @@ body {
 .warhammer-logo {
     max-width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    margin: 20px 0;  /* Adjusted margin to create more space around the images */
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /* Styling for the main heading */
 h1 {
-    font-size: 3em;
+    font-size: 2.5em;  /* Slightly reduced font size for better balance */
     color: #FFD700;
     text-shadow: 2px 2px 4px #000;
-    margin: 10px 0;
+    margin: 15px 0;  /* Increased margin to separate from other elements */
 }
 
 /* Paragraph styling for smaller text */
 p {
     font-size: 1.2em;
-    margin: 10px 0;
+    margin: 15px 0;  /* Increased margin to improve readability */
 }
 
 /* Styling for the button */
@@ -54,11 +52,11 @@ p {
     background-color: #FFD700;
     color: #1A1A1A;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 25px;  /* Adjusted padding for a more substantial button look */
     font-size: 1.2em;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 20px;
+    margin: 20px 0;  /* Adjusted margin to center the button */
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
