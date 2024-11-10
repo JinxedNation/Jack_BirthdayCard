@@ -8,6 +8,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
+    padding: 0 10px; /* Added padding to avoid overflow on small screens */
 }
 
 /* Styling for the main container */
@@ -15,36 +16,37 @@ body {
     background-color: #1A1A1A;
     border: 3px solid #FFD700;
     border-radius: 10px;
-    padding: 30px 20px;  /* Increased padding for top/bottom spacing */
+    padding: 40px 30px; /* Increased padding for top/bottom spacing */
     text-align: center;
-    width: 80%;
-    max-width: 600px;
+    width: 85%;  /* Increased width */
+    max-width: 700px; /* Adjusted max-width for improved readability */
     box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.6);
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 20px 0; /* Margin for vertical spacing */
 }
 
 /* Warhammer logo styling */
 .warhammer-logo {
-    max-width: 100%;
+    max-width: 90%;  /* Limited to avoid overflow on smaller screens */
     height: auto;
-    margin: 20px 0;  /* Adjusted margin to create more space around the images */
+    margin: 20px 0; /* Adjusted margin to create more space around the images */
     display: block;
 }
 
 /* Styling for the main heading */
 h1 {
-    font-size: 2.5em;  /* Slightly reduced font size for better balance */
+    font-size: 2.8em; /* Slightly increased font size for better emphasis */
     color: #FFD700;
     text-shadow: 2px 2px 4px #000;
-    margin: 15px 0;  /* Increased margin to separate from other elements */
+    margin: 20px 0; /* Increased margin to separate from other elements */
 }
 
 /* Paragraph styling for smaller text */
 p {
-    font-size: 1.2em;
-    margin: 15px 0;  /* Increased margin to improve readability */
+    font-size: 1.3em; /* Slightly larger font for readability */
+    margin: 15px 0; /* Adjusted margin for improved readability */
 }
 
 /* Styling for the button */
@@ -52,11 +54,11 @@ p {
     background-color: #FFD700;
     color: #1A1A1A;
     border: none;
-    padding: 12px 25px;  /* Adjusted padding for a more substantial button look */
+    padding: 12px 25px; /* Adjusted padding for a more substantial button look */
     font-size: 1.2em;
     cursor: pointer;
     border-radius: 5px;
-    margin: 20px 0;  /* Adjusted margin to center the button */
+    margin: 20px 0; /* Adjusted margin to center the button */
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
@@ -117,12 +119,15 @@ p {
     padding: 0.5em 0;
 }
 
+/* Styling for the return link */
 .return-link {
     color: #FFD700;
     text-decoration: underline;
     font-size: 1.2em;
     margin-top: 20px;
     display: inline-block;
+    font-weight: bold; /* Bold for better visibility */
+    transition: color 0.3s ease;
 }
 
 .return-link:hover {
